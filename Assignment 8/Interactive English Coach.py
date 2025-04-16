@@ -34,7 +34,7 @@ RATE = 44100
 FILENAME = "output.wav"
 
 def lopeta():
-    print("Ohjelma lopetetaan!")
+    print("The program is now shutting down. Thank you for using our service.")
     return False
 
 def clear_last_line():
@@ -128,7 +128,7 @@ def aanittaja():
         wf.setframerate(RATE)
         wf.writeframes(b''.join(frames))
 
-    #print(f"✅ Tiedosto tallennettu: {FILENAME} ({duration:.2f} s)")
+   
     tekstittaja("english", start)
 
 
